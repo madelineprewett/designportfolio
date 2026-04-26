@@ -55,9 +55,57 @@ body, html {
 .bg-w h3 {color: #2d2d30;}
 .bg-w p {color: #2d2d30;}
 
+.portfolio-modal .modal-dialog {
+  width: auto;
+  max-width: 90vw;
+}
 
+.portfolio-modal .modal-content {
+  width: auto;
+  max-width: 100%;
+  display: inline-block;
+  overflow: hidden;
+  background: #fff;
+  border-radius: 8px;
+}
 
+.portfolio-modal .modal-content > .container,
+.portfolio-modal .modal-content .row,
+.portfolio-modal .modal-content .col-lg-8 {
+  width: auto !important;
+  max-width: 100% !important;
+  margin: 0 auto !important;
+  padding: 0 !important;
+}
 
+.portfolio-modal .modal-content .row {
+  margin: 0 !important;
+}
+
+.portfolio-modal .modal-content .col-lg-8 {
+  float: none !important;
+}
+
+.portfolio-modal .modal-body {
+  padding: 20px;
+  background: #fff;
+}
+
+.portfolio-modal .modal-body img {
+  width: auto !important;
+  max-width: 100% !important;
+  height: auto !important;
+  display: block;
+  margin: 0 auto;
+  border: 12px solid #fff;
+  box-sizing: border-box;
+}
+
+.carousel-inner > .item > img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+}
 
 
 
