@@ -8,8 +8,12 @@
      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js">  </script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js">  </script>
-</head>
-
+<script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
+<style>
+  canvas {
+    z-index: 9999 !important;
+  }
+</style>
 
 <body>
 
@@ -31,10 +35,10 @@ Opening links in a new tab or window can cause accessibility issues. Here are so
     <div class="col-sm-4">
         <h3>Design Fuego</h3>
           <!--Target property opens link in new browser window  -->
-          <a href="" target="_blank">
+          <a href="https://madelineprewett.github.io/prewettfuegowesbite/" target="_blank">
           <!-- Alternatively, you can embed an iframe in the modal window with link to website.-->
          <div class="hover">
-       <img src="fuegoexample.jpeg" class="img-responsive" style="width:100%"alt="Image" >
+       <img src="fuegoexample.jpeg" class="img-responsive" style="width:100%"alt="Screenshot of webpage reading I am Madeline is displayed" >
               </div>
      </a>
         <p>For my first project, I used a Github template and Visual Studio Code to create a basic webpage about myself and my goals for this course. Two interesting skills I learned were how to make a button linked to a new webpage and how to frame the pictures, like the pink and yellow pictures above!</p>
@@ -45,7 +49,7 @@ Opening links in a new tab or window can cause accessibility issues. Here are so
           <a class="portfolio-link" data-toggle="modal" href="#portfolioModal2">
           <!-- Use .jpg or .png files. Alternatively, you can embed an iframe in the modal window with link to pdf-->
             <div class="hover">
-       <img src="LogoThumb.jpeg" class="img-responsive" style="width:100%"alt="Image" >
+       <img src="LogoThumb.jpeg" class="img-responsive" style="width:100%"alt="3 different logos in a green and blue color scheme reading Madelin's Big Ideas are displayed" >
               </div>
      </a>
         <p>I designed 3 logos using Canva and Adobe Express templetes to create a brand I thought represented myself. I tried to use a consistent color scheme and rely on the lettering and framework of the pre-generated templetes instead of creating something entirely myself.</p>
@@ -55,7 +59,7 @@ Opening links in a new tab or window can cause accessibility issues. Here are so
         <h3>UX Testing Logo Project</h3>
         <a class="portfolio-link" target="blank" href="UXTestingSlides.pdf">         
           <div class="hover">
-       <img src="UXThumb.jpeg" class="img-responsive" style="width:100%"alt="Image" >
+       <img src="UXThumb.jpeg" class="img-responsive" style="width:100%"alt="A logo with a flower in front of a yellow background reading madeline's big ideas is displayed" >
               </div>
      </a>
         <p> I conducted UX testing on my logo designs to evaluate their effectiveness and usability. I created a script of questions and interviewed 3 people for feedback so I could makeiterative improvements to enhance the clarity and visual appeal of the logo and create one final design.</p>
@@ -70,7 +74,7 @@ Opening links in a new tab or window can cause accessibility issues. Here are so
         <h3>Cartoon Portrait</h3>
           <a class="portfolio-link" data-toggle="modal" href="#portfolioModal4">
             <div class="hover">
-              <img src="Selfcartoon.png" class="img-responsive" style="width:100%"alt="Image" >
+              <img src="ThumnSelfCartoon.jpeg" class="img-responsive" style="width:100%"alt="A cartoon image of a white woman with brown hair, a blue cardigan, and a cream shirt is displayed." >
             </div>
           </a>
               <p>I used Adobe Illustrator to design a cartoon-style portait of myself. I used the pen tool to create shapes and outline an image of myself.</p>
@@ -80,7 +84,7 @@ Opening links in a new tab or window can cause accessibility issues. Here are so
         <h3>Good Design</h3>
           <a class="portfolio-link" data-toggle="modal" href="#portfolioModal5">
             <div class="hover">
-               <img src="GoodDesignThumb.jpeg" class="img-responsive" style="width:100%"alt="Image">
+               <img src="GoodDesignThumb.jpeg" class="img-responsive" style="width:100%"alt="A screenshot of a band poster for The Strokes">
             </div>
           </a>
               <p>I used my new knowledge of design principles to evaluate a concert poster of one of my favorite bands that I thought was an example of good design. I used Adobe Illustrator to display and explain my analysis.</p>
@@ -141,7 +145,7 @@ Opening links in a new tab or window can cause accessibility issues. Here are so
         <h3>Two-page Spread</h3>
           <a class="portfolio-link" data-toggle="modal" href="#portfolioModal6">
          <div class="hover">
-       <img src="Newdraftjeff2 2Thumb.jpg" class="img-responsive" style="width:100%"alt="Image" >
+       <img src="Newdraftjeff2 2Thumb.jpg" class="img-responsive" style="width:100%"alt="A screenshot of a magazine spread with a man holding a gun and a rope that winds to spell Jeff" >
               </div>
      </a>
         <p>I recreated this spread from an old Esquire issue using Adobe Indesign. I learned how write on lines and use the Adobe Fonts website to match fonts from the original design. My favorite part was changing the width, length, and spacing of the letters to match the specific text. The hardest part was designing the Esquire logo without the overlapping lines, and getting the "Jeff" lines to curve. </p>
@@ -150,7 +154,7 @@ Opening links in a new tab or window can cause accessibility issues. Here are so
         <h3>Infographic</h3>
           <a class="portfolio-link" data-toggle="modal" href="#portfolioModal7">
          <div class="hover">
-       <img src="ApplesThumb.jpg" class="img-responsive" style="width:100%"alt="Image" >
+       <img src="ApplesThumb.jpg" class="img-responsive" style="width:100%"alt="A screenshot of a flyer listing different facts and apples and their commodity chain. The flyer had a yellow background and red text boxes." >
               </div>
      </a>
         <p>I decided to design my infographic around a topic of a recent research project I had: apples! First I creating a draft in Canva beofre creating the final version in Adobe Indesign. I used Adobe Illustrator to recolor a vector of Washington State red to use as one of my textboxes.</p>
@@ -171,10 +175,10 @@ Opening links in a new tab or window can cause accessibility issues. Here are so
       <h3>Accessible Design</h3>
         <a class="portfolio-link" data-toggle="modal" href="#portfolioModal9">
        <div class="hover">
-     <img src="AccesibleThumb.jpeg" class="img-responsive" style="width:100%"alt="Image" >
+     <img src="AccesibleThumb.jpeg" class="img-responsive" style="width:100%"alt="A screenshot of a flyer with orange, green, and pink text boxes and the title accessability in urban planning" >
             </div>
    </a>
-      <p>I used Adobe InDesign to create an interactive, acceisbel pdf that could be read by a screenreader. I also made sure to use color contrast that meets accessibility guidelines, and included clear icons to serve as a visual aid to explain the content. The topic of my PDF was accessibility in urban planning, which is my career intrest. I broke down accessibility into three categories: transportation, infrastructure, and affordability, and used strategies I've learned from my recent coursework..</p>
+      <p>I used Adobe InDesign to create an interactive, accesible pdf that could be read by a screenreader. I also made sure to use color contrast that meets accessibility guidelines, and included clear icons to serve as a visual aid to explain the content. The topic of my PDF was accessibility in urban planning, which is my career intrest. I broke down accessibility into three categories: transportation, infrastructure, and affordability, and used strategies I've learned from my recent coursework.</p>
   </div>
  </div>
 </div>
@@ -231,30 +235,30 @@ Opening links in a new tab or window can cause accessibility issues. Here are so
         <h3>Ten-page Spread </h3>
           <a class="portfolio-link" data-toggle="modal" href="#portfolioModal11">
          <div class="hover">
-       <img src="10PageThumb.jpeg" class="img-responsive" style="width:100%"alt="Image" >
+       <img src="10PageThumb.jpeg" class="img-responsive" style="width:100%"alt="A screenshot of the title of the magazine spread featuring part of a map of the US made up of different grains and the title What Grows Where?" >
               </div>
      </a>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <p>I used Adobe Indesign to create a ten-page magazine spread about American Agriculture. I really liked the artistic map I found for the article's title page and decided to use that as the anchor for my theme. On the title page, I tried to replicate the font from the U.S. map for the article's title. I chose Miller Display as the body font because of its sharpness and readability, and Ivy Mode for my headers.  My favorite page to design was page 6. I learned how to mold the text around the circle so that I could replicate a spread I saw in a home magazine when searching for inspiration. The most interesting page to write was the farmers quotes on page 4. I think the style of the "handwritten" notes helped the storytelling feel more personal and made those quotes stand out as real voices sharing their experiences. Overall, this is definitely the project I am most proud of from this class.</p>
     </div>
      <div class="col-sm-4">
         <h3>Client Project</h3>
           <a class="portfolio-link" data-toggle="modal" href="#portfolioModal12">
          <div class="hover">
-       <img src="steve.jpeg" class="img-responsive" style="width:100%"alt="Image" >
+       <img src="nolanthumb.jpg" class="img-responsive" style="width:100%"alt="An image of a crosswalk and pedestrian traffic light with the title text A Conversation with Nolan Pernia, DOMI Traffic Engineer" >
               </div>
      </a>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <p>I reached out to the Urban Planning Club President, Sophia, to help design an Instagram post advertising an upcoming guest speaker they had. She was struggling with the design because usually she create the design around a headshot of the speaker, but she was unable to find an approriate photo. I used a pedestrian crossing as the backdrop for the post and used a handwriting font to mimic graffiti on the wall of a building for the text explaining the event's time and locations. </p>
     </div>
      <div class="col-sm-4">
         <h3>UX Design Branding Project</h3>
            <!--Target property opens link in new browser window  -->
-           <a href="" target="_blank">
+           <a href="PrewettFinalBrandDesignStudy.pdf" target="_blank">
             <!-- Alternatively, you can embed an iframe in the modal window with link to website.-->
          <div class="hover">
-       <img src="steve.jpeg" class="img-responsive" style="width:100%"alt="Image" >
+       <img src="FINALLogosManzanita.jpg" class="img-responsive" style="width:100%"alt="The words Explore Manzanita in green and blue with a wave icon." >
               </div>
      </a>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <p>I decided to created a tourism brand for a small town on the Oregon Coast called Manzanita. To differenitate it from other destinations like Lincoln City and Cannon Beacg, I focused on the town's slow, quiet feel and cultural identity as a hub for local art. I wanted the logo to reflect the town's nautrual beauty and it's appeal as an outdoorsy detsination, so I used a mix of green and blue to represnet that miles of forest hikes that surround its beaches. I interviewed four Pittsburgh students, who before this studey were unfamilair with the location, to gather honest feedback on the brand's messaging, visual identity, and logo design.</p>
     </div>
   </div>
 </div>
@@ -267,17 +271,17 @@ Opening links in a new tab or window can cause accessibility issues. Here are so
 <div class="row">
  <div class="col-sm-4">
         <p><em>1. Consider the role of rhetoric, technology, and ethics in acts of making.</em></p>
-           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+           <p> I used visual rhetoric in my client design project by analyzing how color palettes and icons, such as the transition from earthy tones to muted blues, persuade specific audiences to view the town as an "outdoorsy" destination rather than a generic beach town. I used technology to structure the digital interviewing and transcription process. I made decisions about which tools, such as Canva, Photoshop Express, Illustrator, and InDesign, would be most efficient for each project. I upheld ethical standards by ensuring participant anonymity, obtaining informed consent before each interview recording, and using a controlled script to mitigate bias during data collection.</p>
  </div>
  
  <div class="col-sm-4">
          <p><em>2. Leverage Design Principles.</em></p>
-           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+           <p>For these designs, I focused on establishing a strong visual hierarchy by using consistent typography and color schemes. By prioritizing proximity and alignment with consistent left-aligned typography, the layouts maintain high legibility. The ten-page magazine spread and the social media client project both used lots of negative space compared to previous projects. This required more decisions about the placement of text and imagery so that the design’s hierarchy effectively guides the viewer’s eye. Also, the selection of a cohesive black, white, and beige palette (the beige color symbolizing the grains common in American agriculture) created a thematic unity. This purposeful repetition across the projects ensured a professional aesthetic and a singular, cohesive brand identity.</p>
  </div>
 
  <div class="col-sm-4">
           <p><em>3. Engage with others in a workshop environment.</em></p>
-           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+           <p> I participated in several more workshops where I collaborated with peers and instructors to refine my design skills. During these workshops, I found that me and my peers usually had personal biases towards  certain design versions or elements, thinking they were more aesthetic even if they were working against the goal and message of the design. When creating Mazanita's brand identity, I was really attatched to this pink/coral color that my classmates explained had no real connection to the town or my mission statement, instead adding a random feminine or playful style. I also had a peer who really wanted a black background for her logo, but no matter how she changed the fonts and icons, it still took away from the elegance she was trying to achieve. This showed me how important it is to get outside feedback, even early in the design process. These sessions provided valuable opportunities to receive feedback on my work and to learn from others' perspectives. The collaborative nature of these workshops helped me develop a broader understanding of design principles and their application in real-world scenarios.</p>
  </div>
 </div>
 <br>
@@ -289,12 +293,13 @@ Opening links in a new tab or window can cause accessibility issues. Here are so
          
  <div class="col-sm-4">
            <p><em>4. Practice revision within and across media forms.</em></p>
-           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+           <p>Revision was especially important in my design process for the client and UX design projects, where I conducted multiple rounds of user interviews to inform my final output.  By integrating their feedback, I significantly improved the design's clarity and visual appeal. The most substantial transformations occurred within the ten-page spread. To move beyond a repetitive “magazine pattern,” a common critique during our workshop, I avoided the standard formula of top-aligned images and static text columns. While I retained that layout to some extent on page 3 (“The Corn Belt”), I reconfigured the remaining pages to embrace greater contrast, bolder creative risks, and a more intuitive visual hierarchy.
+ </p>
  </div>
      
  <div class="col-sm-4">
            <p><em>5. Learn to present your work.</em></p>
-           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+           <p>I have learned how to prepare consise visuals and confident explanations so that I can explain my design choices to non-designers. Presenting my UX design project to the users in my study and the client project to the club's president were both tasks that challenged me to improve my communication skills. When presenting my UX design project to my peers, I had to summarize the over 40 minutes over interviewing I had conducted in just a couple slides. I was able to summarize the key insights to effectively communicate my design decisions and hold the audience's attention.</p>
  </div>
      
  <div class="col-sm-2">
@@ -310,8 +315,10 @@ Opening links in a new tab or window can cause accessibility issues. Here are so
 
   
 <div class="container-fluid text-center">
- <img src="steve.jpeg" class="center-large-image" alt="Steve" style="max-width:25%;max-height:25%;">
-    <p>generated by Pitt Fuego</p>
+ <img src="EndImag.JPG" class="center-large-image" alt="Steve" style="max-width:7%;max-height:7%;">
+ 
+      <p>Thank you for visiting my portfolio! - <3 Madeline </p>  
+ <p>generated by Pitt Fuego</p>
     <p> “Why make a spark when you can light a fire?</p>
 </div>
 
@@ -329,14 +336,24 @@ Opening links in a new tab or window can cause accessibility issues. Here are so
   });
   });
   </script>
-
+<script>
+  // Trigger confetti when any modal opens
+  $(document).on('show.bs.modal', '.portfolio-modal', function () {
+    confetti({
+      particleCount: 500,
+      spread: 100,
+      gravity: 0.78,
+      origin: { y: 0.6 }
+    });
+  });
+</script>
 </body>
    </html>
 
 
     <!-- Modal 1 -->
   <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-lg">
+    <div class="modal-dialog modal-lg">
       <div class="modal-content">
         <div class="close-modal" data-dismiss="modal">
           <div class="lr">
@@ -362,7 +379,7 @@ Opening links in a new tab or window can cause accessibility issues. Here are so
 
         <!-- Modal 2 -->
   <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-lg">
+    <div class="modal-dialog modal-lg">
       <div class="modal-content">
         <div class="close-modal" data-dismiss="modal">
           <div class="lr">
@@ -373,7 +390,7 @@ Opening links in a new tab or window can cause accessibility issues. Here are so
           <div class="row">
             <div class="col-lg-8 mx-auto">
               <div class="modal-body" style>
-                <img class="img-responsive" src="DesignAssignment1.png" style="width:100%" alt="">
+                <img class="img-responsive" src="LogoThumb.jpeg" style="width:100%" alt="Three logos all reading madeline's big ideas. The first has layful green text, the second is a y2k aesthtic with teal letters and stars, and the last has a large white and blue flower.">
                 <button class="btn btn-primary" data-dismiss="modal" type="button">
                   <i class="fas fa-times"></i>
                   Close Project</button>
@@ -387,7 +404,7 @@ Opening links in a new tab or window can cause accessibility issues. Here are so
 
         <!-- Modal 3 -->
   <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-lg">
+    <div class="modal-dialog modal-lg">
       <div class="modal-content">
         <div class="close-modal" data-dismiss="modal">
           <div class="lr">
@@ -412,7 +429,7 @@ Opening links in a new tab or window can cause accessibility issues. Here are so
 
         <!-- Modal 4-->
   <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-lg">
+    <div class="modal-dialog modal-lg">
       <div class="modal-content">
         <div class="close-modal" data-dismiss="modal">
           <div class="lr">
@@ -423,7 +440,7 @@ Opening links in a new tab or window can cause accessibility issues. Here are so
           <div class="row">
             <div class="col-lg-8 mx-auto">
               <div class="modal-body">
-                <img class="img-responsive" src="Selfcartoon.png" style="width:100%" alt="">
+                <img class="img-responsive" src="Selfcartoon.png" style="width:100%" alt="A cartoon image of a white woman with brown hair, a blue cardigan, and a cream shirt is displayed">
 
                 <button class="btn btn-primary" data-dismiss="modal" type="button">
                   <i class="fas fa-times"></i>
@@ -440,7 +457,7 @@ Opening links in a new tab or window can cause accessibility issues. Here are so
 
         <!-- Modal 5 -->
   <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-lg">
+    <div class="modal-dialog modal-lg">
       <div class="modal-content">
         <div class="close-modal" data-dismiss="modal">
           <div class="lr">
@@ -451,7 +468,7 @@ Opening links in a new tab or window can cause accessibility issues. Here are so
           <div class="row">
             <div class="col-lg-8 mx-auto">
               <div class="modal-body">
-                <img class="img-responsive" src="screenshotdesign.png" style="width:100%" alt="">
+                <img class="img-responsive" src="screenshotdesign.png" style="width:100%" alt="A green and black concert poster for the band The Strokes is displayed, with text boxes off to the side analyzing the design choices">
 
                 <button class="btn btn-primary" data-dismiss="modal" type="button">
                   <i class="fas fa-times"></i>
@@ -466,7 +483,7 @@ Opening links in a new tab or window can cause accessibility issues. Here are so
 
         <!-- Modal 6 -->
   <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-lg">
+    <div class="modal-dialog modal-lg">
       <div class="modal-content">
         <div class="close-modal" data-dismiss="modal">
           <div class="lr">
@@ -477,7 +494,7 @@ Opening links in a new tab or window can cause accessibility issues. Here are so
           <div class="row">
             <div class="col-lg-8 mx-auto">
               <div class="modal-body">
-                <img class="img-responsive" src="Newdraftjeff2.jpg" style="width:100%" alt="">
+                <img class="img-responsive" src="Newdraftjeff2.jpg" style="width:100%" alt="A screenshot of a webpage with the title New Draft Jeff 2A screenshot of a magazine spread with a man holding a gun and a rope that winds to spell Jeff">
 
                 <button class="btn btn-primary" data-dismiss="modal" type="button">
                   <i class="fas fa-times"></i>
@@ -492,7 +509,7 @@ Opening links in a new tab or window can cause accessibility issues. Here are so
 
         <!-- Modal 7 -->
   <div class="portfolio-modal modal fade" id="portfolioModal7" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-lg">
+    <div class="modal-dialog modal-lg">
       <div class="modal-content">
         <div class="close-modal" data-dismiss="modal">
           <div class="lr">
@@ -503,7 +520,7 @@ Opening links in a new tab or window can cause accessibility issues. Here are so
           <div class="row">
             <div class="col-lg-8 mx-auto">
               <div class="modal-body">
-                <img class="img-responsive" src="Apples.j" style="width:100%" alt="">
+                <img class="img-responsive" src="Apples.jpg" style="width:100%" alt="A flyer listing different facts and apples and their commodity chain. The flyer has a yellow background and red text boxes.">
 
                 <button class="btn btn-primary" data-dismiss="modal" type="button">
                   <i class="fas fa-times"></i>
@@ -518,7 +535,7 @@ Opening links in a new tab or window can cause accessibility issues. Here are so
 
         <!-- Modal 8 -->
   <div class="portfolio-modal modal fade" id="portfolioModal8" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-lg">
+    <div class="modal-dialog modal-lg">
       <div class="modal-content">
         <div class="close-modal" data-dismiss="modal">
           <div class="lr">
@@ -529,7 +546,7 @@ Opening links in a new tab or window can cause accessibility issues. Here are so
           <div class="row">
             <div class="col-lg-8 mx-auto">
               <div class="modal-body">
-                <img class="img-responsive" src="RevisedIcelandic.jpg" style="width:100%" alt="">
+                <img class="img-responsive" src="RevisedIcelandic.jpg" style="width:100%" alt="Photo of icelandic provision yogurt over red and white background. Advertisement also linked to their website and has the headline Crafted With Icelandic Integrity">
 
                 <button class="btn btn-primary" data-dismiss="modal" type="button">
                   <i class="fas fa-times"></i>
@@ -544,7 +561,7 @@ Opening links in a new tab or window can cause accessibility issues. Here are so
 
         <!-- Modal 9 -->
   <div class="portfolio-modal modal fade" id="portfolioModal9" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-lg">
+    <div class="modal-dialog modal-lg">
       <div class="modal-content">
         <div class="close-modal" data-dismiss="modal">
           <div class="lr">
@@ -555,7 +572,7 @@ Opening links in a new tab or window can cause accessibility issues. Here are so
           <div class="row">
             <div class="col-lg-8 mx-auto">
               <div class="modal-body">
-                <img class="img-responsive" src="AccesibleImageHigh.jpg" style="width:100%" alt="">
+                <img class="img-responsive" src="AccesibleImageHigh.jpg" style="width:100%" alt="A screenshot of a flyer with orange, green, and pink text boxes and the title accessability in urban planning. The flyer also has icons of a bus, a wheelchair, and a building.">
 
                 <button class="btn btn-primary" data-dismiss="modal" type="button">
                   <i class="fas fa-times"></i>
@@ -570,7 +587,7 @@ Opening links in a new tab or window can cause accessibility issues. Here are so
 
            <!-- Modal 10 -->
   <div class="portfolio-modal modal fade" id="portfolioModal10" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-lg">
+    <div class="modal-dialog modal-lg">
       <div class="modal-content">
         <div class="close-modal" data-dismiss="modal">
           <div class="lr">
@@ -595,7 +612,7 @@ Opening links in a new tab or window can cause accessibility issues. Here are so
   </div>
            <!-- Modal 11 -->
   <div class="portfolio-modal modal fade" id="portfolioModal11" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-lg">
+    <div class="modal-dialog modal-lg">
       <div class="modal-content">
         <div class="close-modal" data-dismiss="modal">
           <div class="lr">
@@ -606,7 +623,42 @@ Opening links in a new tab or window can cause accessibility issues. Here are so
           <div class="row">
             <div class="col-lg-8 mx-auto">
               <div class="modal-body">
-                <img class="img-responsive" src="steve.jpeg" style="width:100%" alt="">
+                 <!-- Carousel experimnet begins-->
+    <div id="imageSlideshow" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#imageSlideshow" data-slide-to="0" class="active"></li>
+    <li data-target="#imageSlideshow" data-slide-to="1"></li>
+    <li data-target="#imageSlideshow" data-slide-to="2"></li>
+  </ol>
+
+  <!-- Slides -->
+  <div class="carousel-inner">
+    <div class="item active">
+      <img src="10PageSpreadSlide1.jpg" alt="Cover of a magazine spread with an map of the US and the title What Grows Where">
+    </div>
+    <div class="item">
+      <img src="10PageSpreadSlide2.jpg" alt="The left side of the spread read the corn belt with an image of a barn and the right side had a black background and different handrwritten quotes from midwestern farmers talking about the current struggles of farming.">
+    </div>
+    <div class="item">
+      <img src="10PageSpreadSlide3.jpg" alt="The left page has a collage of different fruits and the right had an image of a windmill with text centered around it.">
+    </div>
+    <div class="item">
+      <img src="10PageSpreadSlide4.jpg" alt="The left page has a wheat field and the right has an image of a farmer talking next to a quote.">
+    </div>
+    <div class="item">
+      <img src="10PageSpreadSlide5.jpg" alt="The left page has an image of a fruit tree and a black, elderely women farming and the righ side has a dark background and on infographic about southeastern agriculture production value.">
+    </div>
+  </div>
+
+  <!-- Left and right controls -->
+  <a class="left carousel-control" href="#imageSlideshow" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+  </a>
+  <a class="right carousel-control" href="#imageSlideshow" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+  </a>
+</div>
 
                 <button class="btn btn-primary" data-dismiss="modal" type="button">
                   <i class="fas fa-times"></i>
@@ -623,7 +675,7 @@ Opening links in a new tab or window can cause accessibility issues. Here are so
 
   <!-- Modal 12 -->
 <div class="portfolio-modal modal fade" id="portfolioModal12" tabindex="-1" role="dialog" aria-hidden="true">
-<div class="modal-lg">
+<div class="modal-dialog modal-lg">
 <div class="modal-content">
 <div class="close-modal" data-dismiss="modal">
  <div class="lr">
@@ -633,8 +685,37 @@ Opening links in a new tab or window can cause accessibility issues. Here are so
 <div class="container">
  <div class="row">
    <div class="col-lg-8 mx-auto">
-     <div class="modal-body">
-       <img class="img-responsive" src="steve.jpeg" style="width:100%" alt="">
+  
+  
+      <div class="modal-body">
+       <<!-- Carousel for Client Project -->
+<div id="imageSlideshow12" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#imageSlideshow12" data-slide-to="0" class="active"></li>
+    <li data-target="#imageSlideshow12" data-slide-to="1"></li>
+  
+  </ol>
+
+  <!-- Slides -->
+  <div class="carousel-inner">
+    <div class="item active">
+      <img src="ClientDesignBrief.jpg" alt="Document detailing the client's contact information, company background, and project goals.">
+    </div>
+    <div class="item">
+      <img src="finalnolan.jpg" alt="An image of a crosswalk and pedestrian traffic light with the title text A Conversation with Nolan Pernia, DOMI Traffic Engineer">
+    </div>
+  
+  </div>
+
+  <!-- Left and right controls -->
+  <a class="left carousel-control" href="#imageSlideshow12" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+  </a>
+  <a class="right carousel-control" href="#imageSlideshow12" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+  </a>
+</div>
 
        <button class="btn btn-primary" data-dismiss="modal" type="button">
          <i class="fas fa-times"></i>
@@ -650,7 +731,7 @@ Opening links in a new tab or window can cause accessibility issues. Here are so
 
 <!-- Modal 13 -->
 <div class="portfolio-modal modal fade" id="portfolioModal13" tabindex="-1" role="dialog" aria-hidden="true">
-<div class="modal-lg">
+<div class="modal-dialog modal-lg">
 <div class="modal-content">
 <div class="close-modal" data-dismiss="modal">
 <div class="lr">
@@ -677,7 +758,7 @@ Opening links in a new tab or window can cause accessibility issues. Here are so
 
 <!-- Modal 14 -->
 <div class="portfolio-modal modal fade" id="portfolioModal14" tabindex="-1" role="dialog" aria-hidden="true">
-<div class="modal-lg">
+<div class="modal-dialog modal-lg">
 <div class="modal-content">
 <div class="close-modal" data-dismiss="modal">
 <div class="lr">
